@@ -1,89 +1,87 @@
-# Git auf Deutsch
+# Git af sidtiroulerisch
 
-Die tägliche Kommunikation in deutschen Entwicklungsteams, die `git`
-(übersetzt: `Schwachkopf` oder `Depp`) anwenden, ist oft das feinste Denglish.
-_"Kannst du bitte pullen"_ oder _"Hast du gepusht"_ sind nur zwei
-der oft seltsam klingenden Konstruktionen.
+Butega, wia die Paschgla mit ihre Rechna so a Toal nomens `git`
+(ibeasetzt: `Rotzleffl`) heanemm, isch oft lei mea a Casino.
+_"Kannsch amo bitte pullen"_ oder _"Hasche schun gepusht"_... Na
+fahlts da sauber? So geat des oba echt net.
 
-Git auf Deutsch schafft Abhilfe!
+Oba fia des gibs ja des jetzt!
 
-## Vorschläge
+## So kannat ma sel mochn
 
-Es folgen zwei Tabellen mit Vorschlägen für den täglichen Gebrauch.
-
-| Verb        | Aktueller Gebrauch | Vorschlag             |
+| Tuanwort    | Wia mas jetz sog   | Wia mas gscheit sog   |
 |-------------|--------------------|-----------------------|
-| init        | initten            | eröffnen              |
-| add         | adden              | hinzufügen            |
-| pull        | pullen             | ziehen                |
-| push        | pushen             | drücken               |
-| clone       | clonen             | nachmachen            |
-| fetch       | fetchen            | holen                 |
-| branch      | branchen           | abzweigen             |
-| commit      | commiten           | übergeben             |
-| rebase      | rebasen            | (neu) erden           |
-| diff        | diffen             | unterscheiden         |
-| merge       | mergen             | vereinigen            |
-| fork        | forken             | gabeln                |
-| stash       | stashen            | bunkern               |
-| tag         | tagen              | markieren             |
-| cherry-pick | cherry-picken      | Rosinen herauspicken  |
-| checkout    | checkouten         | nehmen                |
+| init        | initten            | semaumochn            |
+| add         | adden              | zuachn tian           |
+| pull        | pullen             | einaziachn            |
+| push        | pushen             | ausidruckn            |
+| clone       | clonen             | headamit              |
+| fetch       | fetchen            | ochahoul              |
+| branch      | branchen           | ostia                 |
+| commit      | commiten           | heb mo fescht         |
+| rebase      | rebasen            | ruck an orsch         |
+| diff        | diffen             | magari                |
+| merge       | mergen             | zommtian              |
+| fork        | forken             | ondosch               |
+| stash       | stashen            | gholtau               |
+| tag         | tagen              | markier               |
+| cherry-pick | cherry-picken      | klaub pfiffra         |
+| checkout    | checkouten         | wort amo              |
 
-| Substantiv    | Aktueller Gebrauch | Vorschlag            |
+| Hauptwort     | Wia mas jetz sog   | Wia mas gscheit sog  |
 |---------------|--------------------|----------------------|
-| git           | git                | Depp                 |
-| github        | github             | Deppendrehkreuz      |
-| gitlab        | gitlab             | Deppenlabor          |
-| repository    | repo               | Lagerstätte          |
-| branch        | branch             | Zweig                |
-| commit        | commit             | Übergabe             |
-| log           | log                | Tagebuch             |
-| pull request  | pull request       | Ziehbegehren         |
-| merge request | merge request      | Vereinigungsbegehren |
-| stash         | stash              | Bunker               |
-| status        | status             | Zustand              |
-| tag           | tag                | Markierung           |
-| origin        | origin             | Ursprung             |
-| master        | master             | Meister              |
+| git           | git                | Rotzleffl            |
+| github        | github             | Rom                  |
+| gitlab        | gitlab             | Boazn                |
+| repository    | repo               | Speckkellda          |
+| branch        | branch             | Ost                  |
+| commit        | commit             | augschriebnszuig     |
+| log           | log                | Zettl                |
+| pull request  | pull request       | Einaziacha           |
+| merge request | merge request      | Zommtianer           |
+| stash         | stash              | Truch                |
+| status        | status             | wiatuats             |
+| tag           | tag                | Kartl                |
+| origin        | origin             | unfong               |
+| master        | master             | Capo                 |
 
-## Beispiele
+## A poa satzln zum unfong
 
-    - Kannst du den Zweig, den ich gerade umgeschrieben hab, ziehen und zum Deppendrehkreuz drücken?
+    - Kannsche mo in ost, den i grad um an orsch umigruckt hob, einaziachn und noch rom ausidruckn?
 
-    - Dafür habe ich eine neue Lagerstätte eröffnet, mach sie nach und nimm dir den Entwicklungszweig.
+    - Dofia hob i an neuen speckkellda sem augmocht, sog a "headmit" und nimma da in ost.
 
-    - Nein, drücke das gleich zum Meister im Ursprung!
+    - Na, i druck des glei ausi zum capo im unfong.
 
-    - Ich hab gerade abgezweigt und die Änderungen aus meinem Bunker übergeben.
+    - Ostia, jetz hob i olls aus da truch magari festgholtn.
 
-    - Mach ein Ziehbegehren, wenn du mit der Vereinigung fertig bist!
+    - I will einaziachn, wenn du olls zommgetun hosch.
 
-    - Am besten wir picken uns die Rosinen aus dem Meisterzweig heraus.
+    - Am bestn mia klaubn die pfiffra ausm ost vom capo ausa.
 
-    - Gabeln Sie auf Deppendrehkreuz!
+    - Moch amo ondosch in rom.
 
-## Git auf Deutsch anwenden
+## Und so nimmsch's hea
 
-Wer den nächsten Schritt machen will, hier eine Anleitung, die Git auf Deutsch in Deine Konsole bringt. Da Git keine Umlaute zulässt, müssen wir in den Befehlen leider darauf verzichten. Nimm folgende Änderungen in deiner `~/.gitconfig` vor:
+Wenns di a imma oschnagglt wenn sidtirouler über `git` redn, dann kannsche des ändern! Schoff bei deina Shell de Sachn un:
 
-    git config --global alias.eroeffne init
-    git config --global alias.machnach clone
-    git config --global alias.zieh pull
-    git config --global alias.fueghinzu add
-    git config --global alias.drueck push
-    git config --global alias.zweig branch
-    git config --global alias.verzweige branch
-    git config --global alias.uebergib commit
-    git config --global alias.erde rebase
-    git config --global alias.unterscheide diff
-    git config --global alias.vereinige merge
-    git config --global alias.bunkere stash
-    git config --global alias.markiere tag
-    git config --global alias.nimm checkout
-    git config --global alias.tagebuch log
-    git config --global alias.zustand status
+    git config --global alias.semaumochn init
+    git config --global alias.headamit clone
+    git config --global alias.einaziachn pull
+    git config --global alias.zuachntian add
+    git config --global alias.ausidruckn push
+    git config --global alias.ost branch
+    git config --global alias.ostia branch
+    git config --global alias.habmofescht commit
+    git config --global alias.ruckanorsch rebase
+    git config --global alias.magari diff
+    git config --global alias.zommtian merge
+    git config --global alias.gholtau stash
+    git config --global alias.markier tag
+    git config --global alias.wortamo checkout
+    git config --global alias.zettl log
+    git config --global alias.wiatuats status
 
-Und füge die folgende Zeile zu deiner `~/.bashrc` (oder das Äquivalent auf deinem Betriebssystem) hinzu:
+Donna muasche no des zu deina `~/.bashrc` (oda so epas) dazuatian
 
-    alias depp=git
+    alias rotzleffel=git
